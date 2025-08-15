@@ -4,7 +4,7 @@ Sistema de visión artificial para el conteo de cerezas
 en una línea de producción simulada.
 
 Método: Segmentación por color rojo en espacio HSV.
-Autor: [Tu Nombre]
+Autor: Juan pablo corona navarro
 Fecha: 2025
 ------------------------------------------------------------
 """
