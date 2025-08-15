@@ -1,6 +1,6 @@
 # 🍒 Vision AI for Automatic Cherry Counting
 
-## 📄 Project Description
+## Project Description
 This project implements a **computer vision system** for **automatic cherry counting** on a **simulated production line**.  
 
 The base video was **generated with Artificial Intelligence**, simulating a conveyor belt with cherries moving at industrial speed. This synthetic scenario allows controlled experimentation without relying on sensitive industrial data.  
@@ -17,7 +17,7 @@ This project is part of the **Master in Information Technology at Universidad T�
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Automate the counting of cherries on a conveyor belt.  
 - Compare classical computer vision (HSV segmentation) with modern deep learning (YOLO).  
 - Provide **real-time metrics and logging** for industrial monitoring.  
@@ -25,7 +25,7 @@ This project is part of the **Master in Information Technology at Universidad T�
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Python 3.9+**  
 - **OpenCV** (color segmentation, video processing, visualization)  
 - **NumPy** (image operations and metrics)  
@@ -34,43 +34,9 @@ This project is part of the **Master in Information Technology at Universidad T�
 
 ---
 
-## 🚀 Installation
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/cherry-counter-vision-ai.git
-cd cherry-counter-vision-ai
-pip install -r requirements.txt
-```
-
-Dependencies (`requirements.txt`):
-```
-opencv-python
-numpy
-ultralytics
-```
-
 ---
 
-## ▶️ Usage
-
-### 1. Run cherry counting with HSV segmentation:
-```bash
-python cherry_counter_hsv.py
-```
-
-### 2. Run cherry counting with YOLO:
-```bash
-python cherry_counter_yolo.py
-```
-
-### 3. Outputs generated:
-- `cerezas_contadas_mejorado.mp4` → video with bounding boxes, line crossing and metrics overlay  
-- `conteo_cerezas.txt` → log file with frame-by-frame counts  
-
----
-
-## 📊 Example Metrics on Screen
+## Example Metrics on Screen
 - **Total Count**: accumulated cherries detected  
 - **Detections (per frame)**: objects detected in the current frame  
 - **Occupancy %**: percentage of the conveyor belt occupied by cherries  
@@ -80,7 +46,7 @@ python cherry_counter_yolo.py
 
 ---
 
-## ✅ Results & Expected Impact
+## Results & Expected Impact
 - Accuracy > **95%** compared to manual counting  
 - Real-time performance at **15–25 FPS**  
 - Reduction of manual counting time by **80%**  
@@ -88,7 +54,7 @@ python cherry_counter_yolo.py
 
 ---
 
-## 👤 Author
+## Author
 **Juan Pablo Corona Navarro**  
 Master in Information Technology (MTI)  
 **Universidad Técnica Federico Santa María (UTFSM, Chile)**  
@@ -96,5 +62,5 @@ Master in Information Technology (MTI)
 
 ---
 
-## 📜 License
+## License
 This project is released under the MIT License. You are free to use, modify and distribute it with proper attribution.  
